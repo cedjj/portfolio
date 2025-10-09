@@ -81,10 +81,7 @@ h3 {
   font-size: 1.25em;
 }
 
-.resume{
-  display: grid;
-  grid-template-columns: 1fr;
-}
+
 .section {
   display: grid;
   gap: 1em;
