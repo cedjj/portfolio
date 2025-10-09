@@ -3,4 +3,148 @@ body {
 	   and use the OS’s UI font as the website font
 	 */
   font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: auto;
+  padding: 25px 50px;
 }
+
+nav.menu {
+  display: flex;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+}
+
+nav.menu a {
+  flex: 1;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  padding-top: 0.5em;
+}
+nav.menu a.current {
+  border-bottom: 0.4em solid oklch(80% 3% 200);
+  padding-bottom: 0.1em;
+}
+html {
+  --color-accent: oklch(55.618% 0.22435 290.945);
+  accent-color: var(--color-accent);
+}
+nav.menu a:hover {
+  border-bottom: 0.4em solid oklch(55.618% 0.22435 290.945);
+  background-color: oklch(from var(--color-accent) 95% 5% h);
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1em;
+}
+label {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / -1;
+}
+button {
+  grid-column: 1 / -1;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+  gap: 1em;
+}
+article.project {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;
+  margin: 0;
+  gap: 1em;
+}
+article.project h2 {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.1;
+  text-wrap: balance;
+}
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.25em;
+}
+
+.resume{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.section {
+  display: grid;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+.resume .section h2 {
+  padding-bottom: 0.2em;
+  margin-bottom: -0.5em;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: 0.5px oklch(80% 3% 200);
+}
+.proj {
+  margin-bottom: -1.5em;
+}
+.proj-header {
+  margin-bottom: -0.5em;
+}
+.proj:last-child {
+  border-bottom: none;
+}
+.proj h3 {
+  margin-bottom: 0.5em;
+}
+.proj-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.5em;
+}
+.details {
+  margin: 0;
+}
+.proj-meta .details {
+  margin: 0;
+}
+.proj-meta nav a {
+  text-decoration: none;
+  color: oklch(51.497% 0.16197 257.892);
+  font-weight: 500;
+}
+.proj-meta nav a:hover {
+  text-decoration: underline;
+}
+
+.edu_details {
+  margin-top: -2.5em;
+  margin-bottom: -1em;
+}
+
+.section .skills p{
+  margin-bottom: -1em;
+  
+}
+.skills:last-child {
+    margin-bottom: 1em;
+}
+
+.exp {
+  margin-bottom: -1em;
+}
+
