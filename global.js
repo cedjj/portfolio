@@ -113,15 +113,22 @@ export async function fetchJSON(url) {
 
 export function renderProjects(project, containerElement, headingLevel = 'h2') {
   containerElement.innerHTML = '';
-  
+
   project.forEach(proj => {
   const article = document.createElement('article');
+  const imagePath = location.pathname.includes('/projects/')
+    ? '../' + proj.image
+    : proj.image;
+
   article.innerHTML = `
     <${headingLevel}>${proj.title}</${headingLevel}>
-    <img src="${proj.image}" alt="${proj.title}">
+    <img src="${imagePath}" alt="${proj.title}" style="width: 250px; height: auto; border-radius: 10px;">
     <p>${proj.description}</p>
   `;
   containerElement.appendChild(article);
   });
 }
 
+export async function fetchGitHubData(username) {
+  return fetchJSON(`https://api.github.com/users/${username}`);
+}

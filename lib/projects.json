@@ -1,62 +1,74 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio facere dolorem repudiandae earum assumenda reprehenderit eveniet voluptate minima provident? Quisquam amet minima qui nostrum perferendis totam excepturi quae libero ut."
+        "title": "Expository Visualization of Grocery Store Foods Data",
+        "image": "images/final_plot.png",
+        "year": 2025,
+        "description": "This project uses visualization to compares how processed the products sold at Whole Foods, Walmart, and Target through FPro scores. By visualizing product distributions across each store, the analysis reveals clear differences between stores. Walmart and Target both skew heavily toward highly processed foods, while Whole Foods shows a more balanced spread with a greater share of minimally processed items. These results support the idea that Whole Foods offers less processed products than typical grocery retailers."
     },
     {
-        "title": "Impedit dolorem culpa ad?",
+        "title": "Quick and Delicious: Does Cooking Time Predict Recipe Rating?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Eligendi nam sequi necessitatibus accusamus eum nihil voluptate, fuga rem distinctio molestiae laborum nostrum mollitia unde possimus, hic ea voluptas atque repellendus earum nulla. Voluptate maxime iusto quae similique doloribus!"
+        "year": 2025,
+        "description": "This project explored if what features of a dataset could predict recipe rating through data analysis and modeling. Starting with a simple baseline model using three numerical features, we achieved an F1 score of 0.741, but needed more complexity to capture user preferences. By engineering features such as nutritional ratios, ingredient patterns, tag encodings, and user behavior signals, and using a tuned Random Forest Classifier, our final model reached an F1 score of 0.87. We showed that enjoyment is influenced by multiple factors and that thoughtful feature engineering can significantly improve predictive performance."
     },
     {
         "title": "Nam molestiae temporibus ab!",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Neque optio veniam porro dolorem sapiente at expedita vero aperiam consectetur maiores illum nisi ipsam quia aut nostrum quis officiis fuga illo modi, hic consequuntur iusto vel velit! Error, quas!"
     },
     {
         "title": "Odio totam veritatis nostrum!",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Molestiae laboriosam in quisquam exercitationem nostrum, assumenda earum magnam nobis temporibus aspernatur illum sint alias iusto culpa fuga sequi praesentium, ipsam ipsum dolores recusandae optio id natus, mollitia corrupti? Eveniet!"
     },
     {
         "title": "Eveniet a iste commodi?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Placeat modi sed impedit quibusdam, temporibus natus eius optio rerum maxime voluptatem officia, quas doloremque repellendus sit hic cumque quidem. Unde perspiciatis blanditiis error, praesentium adipisci eaque accusantium cum alias."
     },
     {
         "title": "Nulla ab fuga nesciunt?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Cupiditate excepturi fugiat dolores consequuntur sed fugit officia omnis ex, facere autem labore temporibus ipsam tenetur ratione reprehenderit eveniet, eos consequatur praesentium fuga aliquam quis quidem incidunt! Incidunt, soluta modi!"
     },
     {
         "title": "Quibusdam reiciendis corrupti labore?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Earum saepe ipsum quam in dignissimos rem quisquam perspiciatis reiciendis asperiores molestiae dolorem quidem, a, beatae, at nihil. Dolorum autem blanditiis optio vitae minima nisi molestiae, natus architecto soluta corporis!"
     },
     {
         "title": "Esse omnis possimus eaque.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Ullam pariatur vitae eos nisi obcaecati exercitationem molestiae sunt quis alias, quod facilis ut eligendi maiores odit earum assumenda nam quidem voluptatibus accusamus corporis. Est, fugiat sunt. Rerum, corporis eos."
     },
     {
         "title": "Amet id iusto quisquam?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Saepe harum voluptatum ratione inventore quasi dicta modi necessitatibus aperiam nesciunt esse itaque autem corporis voluptatem doloribus eum blanditiis, quaerat sunt incidunt nisi, delectus est eos. Mollitia molestiae autem pariatur?"
     },
     {
         "title": "Nesciunt amet blanditiis unde?",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Rerum, laborum vitae quisquam odit dolore molestias beatae quod minima? Amet praesentium voluptatibus veritatis expedita voluptate non. Maxime voluptate totam, expedita sit eveniet enim quas nobis eum numquam nihil doloremque."
     },
     {
         "title": "Ab cumque eos natus.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Deleniti fugiat laborum provident eius voluptatum suscipit, quas quae doloribus enim temporibus nihil modi quia itaque nisi, molestiae ad quasi ullam eum pariatur expedita perspiciatis blanditiis facere, neque exercitationem? Recusandae."
     },
     {
         "title": "Nulla quas similique omnis.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": 2024,
         "description": "Possimus quisquam libero facere? Aliquam nihil numquam dicta, qui dignissimos in vitae quos non! Laboriosam voluptate, vitae temporibus repellendus, hic dolorem expedita nulla ea incidunt veritatis odit ullam ex omnis."
     }
 ]
