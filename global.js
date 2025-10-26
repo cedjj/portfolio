@@ -116,9 +116,13 @@ export function renderProjects(project, containerElement, headingLevel = 'h2') {
 
   project.forEach(proj => {
   const article = document.createElement('article');
-  const imagePath = location.pathname.includes('/projects/')
-    ? '../' + proj.image
-    : proj.image;
+
+  const defaultImage = 'https://vis-society.github.io/labs/2/images/empty.svg';
+  const imageSrc = proj.image ? proj.image : defaultImage;
+
+  const imagePath = location.pathname.includes('/projects/') && !imageSrc.startsWith('http')
+    ? '../' + imageSrc
+    : imageSrc;
 
   article.innerHTML = `
     <${headingLevel}>${proj.title}</${headingLevel}>
