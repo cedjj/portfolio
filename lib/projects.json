@@ -42,10 +42,10 @@
         "description": "I developed a custom n-gram language model from scratch in Python, which involved processing a large text corpus and building foundational uniform and unigram models. The implementation included creating n-grams, calculating probabilities, and generating new text samples."
     },
     {
-        "title": "Esse omnis possimus eaque.",
-        "image": "",
-        "year": 2023,
-        "description": "Ullam pariatur vitae eos nisi obcaecati exercitationem molestiae sunt quis alias, quod facilis ut eligendi maiores odit earum assumenda nam quidem voluptatibus accusamus corporis. Est, fugiat sunt. Rerum, corporis eos."
+        "title": "Bike Watching",
+        "image": "images/bikewatch.png",
+        "year": 2025,
+        "description": "Visualizing bike paths and stations of the Boston area through javascript and d3."
     },
     {
         "title": "Amet id iusto quisquam?",
