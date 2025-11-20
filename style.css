@@ -433,10 +433,18 @@ dd {
   display: flex;
   flex-direction: column;
 }
+#chart-title {
+  position: sticky;  /* stick the title itself too */
+  top: 0;            /* stay at top of viewport */
+  margin: 0;
+  padding: 0.5rem 0;
+  z-index: 10;       /* make sure it sits above the chart */
+}
+
 
 #chart {
   position: sticky;
-  top: 0;
+  top: 4em;
   left: 0;
   height: 50vh;
 }

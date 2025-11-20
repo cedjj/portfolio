@@ -425,5 +425,6 @@ function onStepEnter(response) {
   const filteredCommits = commits.filter((d) => d.datetime <= commitDate);
 
   updateScatterPlot(data, filteredCommits);
+
   renderCommitInfo(data, filteredCommits);
 }
