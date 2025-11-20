@@ -12,10 +12,27 @@
     <h1>Meta</h1>
 
     <h2>Summary</h2>
+
+    <div class="slider-row">
+        <div class="slider-group">
+            <label for="commit-progress">Show commits until:</label>
+            <input id="commit-progress" type="range" min="0" max="100" value="0">
+        </div>
+        <time id="commit-time"></time>
+    </div>
+
     <div id="stats"></div>
 
     <h2>Commits by time of day</h2>
-    <div id="chart"></div>
+
+    <div id="scrolly-1">
+        <div id="scatter-story"></div>
+
+        <div id="chart-container">
+            <div id="chart"></div>
+            
+        </div>
+    </div>
 
     <dl id="commit-tooltip" class="info tooltip" hidden>
         <dt>Commit</dt>
@@ -30,7 +47,7 @@
         </dl>
     <p id="selection-count">No commits selected</p>
     <dl id="language-breakdown" class="stats"></dl>
-
+    <dl id="files"></dl>
     <script src="main.js" type="module"></script>
 </body>
 
